@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "health",
+      "patterns": [
+        "Tư vấn sức khỏe giúp tôi",
+        "Làm sao để có sức khỏe tốt?",
+        "Làm thế nào để giảm căng thẳng?",
+        "Lời khuyên về sức khỏe khi làm việc",
+        "Tôi cảm thấy mệt mỏi",
+        "Cách duy trì lối sống lành mạnh",
+        "Tôi bị đau tay",
+        "Tôi bị đau chân",
+        "Tôi bị đau đầu",
+        "Tôi bị đau bụng",
+        "Tôi bị sốt",
+        "Tôi cảm thấy bị ốm",
+        "Tôi bị bệnh",
+        "Đau tay phải làm sao?",
+        "Đau đầu quá",
+        "Bị sốt thì làm thế nào?"
+      ],
+      "responses": [
+        "Để có một sức khỏe tốt khi làm việc với máy tính, bạn nên đứng dậy vận động nhẹ sau mỗi 45-60 phút, uống đủ nước và ngủ đủ giấc từ 7-8 tiếng mỗi ngày nhé!",
+        "Chăm sóc sức khỏe là rất quan trọng! Bạn hãy cố gắng ăn uống đủ chất, hạn chế thức khuya và rèn luyện thể dục thể thao đều đặn nhé."
+      ]
+    }
+  ]
+}

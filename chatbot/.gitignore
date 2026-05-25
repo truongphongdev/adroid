@@ -1,0 +1,48 @@
+# --- Python Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+bin/
+lib/
+include/
+pip-selfcheck.json
+
+# --- Python cache and bytecode ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.noserc
+nosetests.xml
+pylintrc
+.tox/
+.dmypy.json
+dmypy.json
+.mypy_cache/
+
+# --- Environment variables & secrets ---
+.env
+.env.local
+.env.*.local
+db.sqlite3
+*.db
+*.sqlite
+
+# --- IDEs and Editors ---
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+
+# --- Project specific ---
+output/

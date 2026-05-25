@@ -1,0 +1,11 @@
+fastapi>=0.110.0
+uvicorn>=0.28.0
+sqlalchemy>=2.0.28
+pymysql>=1.1.0
+cryptography>=42.0.5
+python-dotenv>=1.0.1
+pydantic>=2.6.4
+numpy>=1.24.0
+nltk>=3.8.1
+torch>=2.0.0
+bcrypt>=4.1.0

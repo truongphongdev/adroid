@@ -1,0 +1,121 @@
+{
+  "intents": [
+    {
+      "tag": "items",
+      "patterns": [
+        "Bạn bán những gì?",
+        "Cửa hàng có sản phẩm gì?",
+        "Tôi có thể mua gì ở đây?",
+        "Sản phẩm của bạn là gì?",
+        "Danh mục sản phẩm"
+      ],
+      "responses": [
+        "Cửa hàng của chúng tôi cung cấp các dịch vụ tư vấn giải pháp CNTT, thiết kế website và phát triển phần mềm.",
+        "Chúng tôi chuyên cung cấp các giải pháp phần mềm, chatbot AI và các khóa học lập trình chất lượng cao."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Thanh toán thế nào?",
+        "Có những hình thức thanh toán nào?",
+        "Tôi có thể trả bằng thẻ không?",
+        "Chuyển khoản ngân hàng được không?",
+        "Phương thức thanh toán"
+      ],
+      "responses": [
+        "Chúng tôi chấp nhận thanh toán qua chuyển khoản ngân hàng (VND) và ví điện tử MoMo, ZaloPay.",
+        "Bạn có thể thanh toán trực tuyến bằng thẻ tín dụng (Visa/Mastercard) hoặc quét mã QR qua ứng dụng ngân hàng."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Giao hàng mất bao lâu?",
+        "Thời gian vận chuyển",
+        "Khi nào tôi nhận được hàng?",
+        "Ship mất bao lâu?",
+        "Thời gian giao hàng"
+      ],
+      "responses": [
+        "Với các sản phẩm số hóa, bạn sẽ nhận được thông tin truy cập ngay sau khi thanh toán thành công.",
+        "Đối với các tài liệu bản cứng, thời gian giao hàng thường từ 2-4 ngày làm việc tùy thuộc vào địa chỉ của bạn."
+      ]
+    },
+    {
+      "tag": "consulting",
+      "patterns": [
+        "Tôi muốn tư vấn giải pháp",
+        "Tư vấn cho tôi về dịch vụ",
+        "Hãy tư vấn sản phẩm giúp tôi",
+        "Tôi cần lời khuyên về dự án",
+        "Cần tư vấn dịch vụ CNTT",
+        "Tư vấn giải pháp phần mềm"
+      ],
+      "responses": [
+        "Chào bạn, chúng tôi chuyên cung cấp các giải pháp thiết kế website, xây dựng phần mềm và tích hợp chatbot AI. Bạn có thể chia sẻ cụ thể hơn về nhu cầu của dự án để chúng tôi hỗ trợ tốt nhất nhé!",
+        "Rất vui được tư vấn cho bạn! Chúng tôi có các gói giải pháp từ tối ưu quy trình doanh nghiệp đến phát triển ứng dụng di động. Bạn cần tư vấn về mảng nào cụ thể?"
+      ]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": [
+        "Tôi gặp lỗi khi sử dụng",
+        "Sản phẩm không hoạt động",
+        "Làm sao để cài đặt phần mềm?",
+        "Hỗ trợ kỹ thuật giúp tôi",
+        "Cần hướng dẫn sử dụng",
+        "Web bị lỗi rồi"
+      ],
+      "responses": [
+        "Rất tiếc vì sự bất tiện này. Bạn vui lòng mô tả chi tiết lỗi hoặc gửi ảnh chụp màn hình qua email support@company.com để kỹ thuật viên hỗ trợ bạn ngay nhé!",
+        "Đừng lo lắng, bạn hãy thử khởi động lại ứng dụng hoặc xóa cache trình duyệt. Nếu vẫn không được, tôi sẽ kết nối bạn với chuyên viên kỹ thuật."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Tôi muốn góp ý",
+        "Dịch vụ rất tốt",
+        "Tôi không hài lòng",
+        "Đánh giá cửa hàng",
+        "Sản phẩm tuyệt vời",
+        "Phàn nàn về dịch vụ"
+      ],
+      "responses": [
+        "Cảm ơn bạn đã phản hồi! Chúng tôi luôn ghi nhận mọi ý kiến để nâng cao chất lượng dịch vụ.",
+        "Mọi đóng góp của bạn là động lực để chúng tôi hoàn thiện hơn. Cảm ơn bạn rất nhiều!",
+        "Chúng tôi rất tiếc nếu trải nghiệm của bạn chưa tốt. Vui lòng để lại số điện thoại, quản lý của chúng tôi sẽ liên hệ để giải quyết thỏa đáng."
+      ]
+    },
+    {
+      "tag": "careers",
+      "patterns": [
+        "Công ty có tuyển dụng không?",
+        "Tôi muốn ứng tuyển",
+        "Tìm việc làm",
+        "Gửi CV ở đâu?",
+        "Tuyển dụng lập trình viên",
+        "Cơ hội nghề nghiệp"
+      ],
+      "responses": [
+        "Chúng tôi luôn chào đón các tài năng mới! Bạn vui lòng truy cập mục 'Tuyển dụng' trên website hoặc gửi CV về hr@company.com nhé.",
+        "Hiện tại chúng tôi đang tìm kiếm các vị trí Developer và Designer. Bạn có muốn nhận thông tin chi tiết về JD không?"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Địa chỉ ở đâu?",
+        "Văn phòng công ty ở đâu?",
+        "Tôi muốn đến trực tiếp",
+        "Tìm đường đến cửa hàng",
+        "Bạn ở đâu?"
+      ],
+      "responses": [
+        "Văn phòng chính của chúng tôi đặt tại Tòa nhà Innovation, Công viên Phần mềm Quang Trung, Quận 12, TP.HCM.",
+        "Bạn có thể tìm thấy chúng tôi trên Google Maps bằng cách gõ tên công ty. Rất vui được đón tiếp bạn!"
+      ]
+    }
+  ]
+}

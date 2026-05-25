@@ -1,0 +1,109 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Xin chào",
+        "Chào bạn",
+        "Có ai ở đó không?",
+        "Alo",
+        "Ê"
+      ],
+      "responses": [
+        "Xin chào! Tôi có thể giúp gì cho bạn?",
+        "Chào bạn! Rất vui được trò chuyện với bạn. Bạn cần giúp gì?",
+        "Chào bạn! Bạn khỏe không? Hôm nay tôi có thể hỗ trợ gì cho bạn?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tạm biệt",
+        "Hẹn gặp lại",
+        "Bye",
+        "Chào nhé",
+        "Tôi đi đây",
+        "Hẹn gặp lại sau"
+      ],
+      "responses": [
+        "Tạm biệt! Hẹn gặp lại bạn sớm nhé.",
+        "Chúc bạn một ngày tốt lành! Tạm biệt.",
+        "Chào bạn, rất vui được hỗ trợ bạn hôm nay!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Cảm ơn",
+        "Cảm ơn nhiều",
+        "Thank you",
+        "Thanks",
+        "Cảm ơn bạn nhé",
+        "Cám ơn nhiều"
+      ],
+      "responses": [
+        "Không có chi! Rất vui được giúp đỡ bạn.",
+        "Rất vui được hỗ trợ bạn!",
+        "Bất cứ lúc nào bạn cần, tôi luôn sẵn sàng giúp đỡ."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Kể tôi nghe chuyện cười đi",
+        "Bạn có biết đùa không?",
+        "Nói gì đó hài hước đi",
+        "Bạn có vui tính không?"
+      ],
+      "responses": [
+        "Tại sao các lập trình viên thích chế độ tối (dark mode)? Bởi vì ánh sáng thu hút côn trùng (bugs)!",
+        "Có 10 loại người trên thế giới: những người hiểu nhị phân và những người không hiểu."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "Thời tiết hôm nay thế nào?",
+        "Hôm nay có mưa không?",
+        "Nhiệt độ hiện tại là bao nhiêu?",
+        "Dự báo thời tiết hôm nay",
+        "Trời hôm nay nắng hay mưa?",
+        "Thời tiết"
+      ],
+      "responses": [
+        "Vì tôi là một AI chạy offline, tôi không thể cập nhật thời tiết thời gian thực. Tuy nhiên, thời tiết hôm nay rất thích hợp để chúng ta cùng học lập trình đấy!",
+        "Tôi khuyên bạn nên kiểm tra ứng dụng thời tiết trên điện thoại để có thông tin chính xác nhất nhé. Chúc bạn có một ngày làm việc tràn đầy năng lượng!"
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "Bạn có thể làm gì?",
+        "Chức năng của bạn là gì?",
+        "Bạn giúp được gì cho tôi?",
+        "Bạn là ai?",
+        "Bot có thể làm gì?"
+      ],
+      "responses": [
+        "Tôi là trợ lý ảo thông minh. Tôi có thể tư vấn dịch vụ CNTT, giải đáp thắc mắc về thanh toán, giao hàng và thậm chí là kể chuyện cười cho bạn nghe nữa đấy!",
+        "Tôi giúp bạn tìm kiếm thông tin sản phẩm, hỗ trợ kỹ thuật cơ bản và kết nối bạn với các chuyên gia của chúng tôi."
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "Ai tạo ra bạn?",
+        "Tên bạn là gì?",
+        "Bạn là người hay máy?",
+        "Bạn bao nhiêu tuổi?",
+        "Bạn sống ở đâu?"
+      ],
+      "responses": [
+        "Tôi là một trí tuệ nhân tạo được phát triển bởi đội ngũ kỹ sư của công ty. Bạn có thể gọi tôi là Trợ lý Ảo!",
+        "Tôi không có tuổi hay địa chỉ nhà, tôi 'sống' trên đám mây và luôn sẵn sàng hỗ trợ bạn 24/7."
+      ]
+    }
+  ]
+}
